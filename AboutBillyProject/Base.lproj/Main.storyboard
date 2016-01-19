@@ -17,9 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clone" translatesAutoresizingMaskIntoConstraints="NO" id="1OI-Z0-eoG">
-                                <rect key="frame" x="8" y="197" width="399" height="213"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBR-EP-FXY">
                                 <rect key="frame" x="117" y="42" width="180" height="111"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -33,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZs-GH-oKS">
-                                <rect key="frame" x="169" y="572" width="76" height="62"/>
+                                <rect key="frame" x="169" y="621" width="76" height="62"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.0" green="1" blue="0.98994848009365777" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,6 +39,9 @@
                                     <action selector="moveToLeague:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gBQ-EI-SwV"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clone" translatesAutoresizingMaskIntoConstraints="NO" id="1OI-Z0-eoG">
+                                <rect key="frame" x="9" y="197" width="397" height="266"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.72020056507508556" blue="0.81487438230357057" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -68,16 +68,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzm-eg-l4l">
-                                <rect key="frame" x="161" y="644" width="92" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moveToView:" destination="QqE-TE-pDq" eventType="touchUpInside" id="CJC-wx-aNo"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laos" translatesAutoresizingMaskIntoConstraints="NO" id="Zin-uU-G7A">
                                 <rect key="frame" x="-8" y="28" width="431" height="257"/>
                             </imageView>
@@ -87,6 +77,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzm-eg-l4l">
+                                <rect key="frame" x="161" y="632" width="92" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveToView:" destination="QqE-TE-pDq" eventType="touchUpInside" id="CJC-wx-aNo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.57534931188070104" green="0.93375157828282829" blue="0.82447916192165338" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -113,16 +113,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYR-l8-riA">
-                                <rect key="frame" x="155" y="624" width="104" height="54"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" red="0.97894965280000001" green="0.7902487507" blue="0.4273340799" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moveToLaos:" destination="Tmx-Q6-dd3" eventType="touchUpInside" id="iMO-cX-lAt"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="attack_on_titan" translatesAutoresizingMaskIntoConstraints="NO" id="haD-Vl-Vgb">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
                             </imageView>
@@ -132,6 +122,16 @@
                                 <color key="textColor" red="0.97894965277777779" green="0.79024875069157008" blue="0.42733407993023281" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYR-l8-riA">
+                                <rect key="frame" x="155" y="628" width="104" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.97894965280000001" green="0.7902487507" blue="0.4273340799" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveToLaos:" destination="Tmx-Q6-dd3" eventType="touchUpInside" id="iMO-cX-lAt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.54131155303030298" green="0.27556074743249548" blue="0.082547860934260309" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -158,16 +158,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SS-Ma-aDH">
-                                <rect key="frame" x="171" y="612" width="73" height="47"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" red="1" green="0.80380365809999998" blue="0.1122473427" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moveToRice:" destination="Pxe-Uq-PyX" eventType="touchUpInside" id="XFc-mh-4wB"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I like to play the video game League of Legends.  I am pretty good at this game.  I like to play it with friends and family." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGd-PU-C7s">
                                 <rect key="frame" x="36" y="295" width="342" height="259"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
@@ -177,6 +167,16 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="league_of_legends_logo" translatesAutoresizingMaskIntoConstraints="NO" id="l5Q-bf-XLi">
                                 <rect key="frame" x="0.0" y="28" width="416" height="221"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SS-Ma-aDH">
+                                <rect key="frame" x="171" y="626" width="73" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="0.80380365809999998" blue="0.1122473427" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveToRice:" destination="Pxe-Uq-PyX" eventType="touchUpInside" id="XFc-mh-4wB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.15559895833333337" green="0.15559895833333337" blue="0.15559895833333337" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -203,16 +203,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6w1-1j-tIY">
-                                <rect key="frame" x="163" y="616" width="89" height="52"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="moveToBasketball:" destination="0pW-JZ-MH4" eventType="touchUpInside" id="vld-hw-Ibq"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fr" translatesAutoresizingMaskIntoConstraints="NO" id="QhC-KG-UwN">
                                 <rect key="frame" x="12" y="43" width="391" height="209"/>
                             </imageView>
@@ -222,6 +212,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6w1-1j-tIY">
+                                <rect key="frame" x="163" y="626" width="89" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveToBasketball:" destination="0pW-JZ-MH4" eventType="touchUpInside" id="vld-hw-Ibq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90873579545454541" green="0.76201882495710882" blue="0.40707505908535596" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
